@@ -1,11 +1,19 @@
-.container{
-    width: 600px;
-    height: 850px;
-    margin: auto;
-    margin-top: 75px;
-    border-radius: 12px;
+body{
     
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(180deg, #acadad, #ffffff);
+}
+
+.container{
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    border-radius: 12px; 
     background-image: linear-gradient(180deg, #2c3e50, #2c3e50);
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
 }
 
 .top-bar{
@@ -17,8 +25,8 @@
 
 .top-bar input{
     display: flex;
-    width: 360px;
-    height: 80px;
+    width: 250px;
+    height: 50px;
     background: #ebfffc;
     border: none;
     outline: none;
@@ -33,15 +41,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background: #ebfffc;
     border-radius: 40px;
     cursor: pointer;
 }
 
 .weather-image{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -50,16 +58,16 @@
     display: flex;
     justify-content: center;
     color: #fff;
-    font-size: 120px;
-    font-weight: 400;
+    font-size: 100px;
+    font-weight: 300;
 }
 
 .weather-location{
     display:flex;
     justify-content: center;
     color: #fff;
-    font-size: 60px;
-    font-weight: 400;
+    font-size: 50px;
+    font-weight: 300;
 }
 
 .data-container{
@@ -77,8 +85,8 @@
 }
 
 .data{
-    font-size:30px;
-    font-weight: 400;
+    font-size:20px;
+    font-weight: 300;
 }
 
 .text{
